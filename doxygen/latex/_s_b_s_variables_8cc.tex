@@ -1,0 +1,160 @@
+\hypertarget{_s_b_s_variables_8cc}{\section{g4work/\-Ecal/src/\-S\-B\-S\-Variables.cc File Reference}
+\label{_s_b_s_variables_8cc}\index{g4work/\-Ecal/src/\-S\-B\-S\-Variables.\-cc@{g4work/\-Ecal/src/\-S\-B\-S\-Variables.\-cc}}
+}
+{\ttfamily \#include $<$sstream$>$}\\*
+{\ttfamily \#include $<$fstream$>$}\\*
+{\ttfamily \#include \char`\"{}S\-B\-S\-Variables.\-hh\char`\"{}}\\*
+Include dependency graph for S\-B\-S\-Variables.\-cc\-:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{_s_b_s_variables_8cc__incl}
+\end{center}
+\end{figure}
+\subsection*{Macros}
+\begin{DoxyCompactItemize}
+\item 
+\#define \hyperlink{_s_b_s_variables_8cc_a3a79ce50f4b0f747985663140384754e}{R\-E\-A\-D\-B\-O\-O\-L}(myx)
+\item 
+\#define \hyperlink{_s_b_s_variables_8cc_a46168874a44b899c950bc8a747eb96b7}{R\-E\-A\-D\-D\-O\-U\-B\-L\-E}(x, unit)
+\item 
+\#define \hyperlink{_s_b_s_variables_8cc_a7e04bf52f82c653d4c03037876b89b46}{R\-E\-A\-D\-I\-N\-T}(x)
+\item 
+\#define \hyperlink{_s_b_s_variables_8cc_ad3c80bc8f9ab3dd271fb8d12039e00e5}{R\-E\-A\-D\-S\-T\-R\-I\-N\-G}(x)
+\item 
+\#define \hyperlink{_s_b_s_variables_8cc_aead60163aee53f894e7a7e903ff2526d}{R\-E\-A\-D\-V\-E\-C\-T\-O\-R}(v)
+\end{DoxyCompactItemize}
+\subsection*{Functions}
+\begin{DoxyCompactItemize}
+\item 
+ostream \& \hyperlink{_s_b_s_variables_8cc_ade2ea5e1c085c388211fc07746aaa3ce}{operator$<$$<$} (ostream \&os, const \hyperlink{class_s_b_s_variables}{S\-B\-S\-Variables} v)
+\end{DoxyCompactItemize}
+\subsection*{Variables}
+\begin{DoxyCompactItemize}
+\item 
+\hyperlink{class_s_b_s_variables}{S\-B\-S\-Variables} $\ast$ \hyperlink{_s_b_s_variables_8cc_aaa4c7e8ec08cba6569c1ae6ddaa0a388}{Variables} = N\-U\-L\-L
+\end{DoxyCompactItemize}
+
+
+\subsection{Macro Definition Documentation}
+\hypertarget{_s_b_s_variables_8cc_a3a79ce50f4b0f747985663140384754e}{\index{S\-B\-S\-Variables.\-cc@{S\-B\-S\-Variables.\-cc}!R\-E\-A\-D\-B\-O\-O\-L@{R\-E\-A\-D\-B\-O\-O\-L}}
+\index{R\-E\-A\-D\-B\-O\-O\-L@{R\-E\-A\-D\-B\-O\-O\-L}!SBSVariables.cc@{S\-B\-S\-Variables.\-cc}}
+\subsubsection[{R\-E\-A\-D\-B\-O\-O\-L}]{\setlength{\rightskip}{0pt plus 5cm}\#define R\-E\-A\-D\-B\-O\-O\-L(
+\begin{DoxyParamCaption}
+\item[{}]{myx}
+\end{DoxyParamCaption}
+)}}\label{_s_b_s_variables_8cc_a3a79ce50f4b0f747985663140384754e}
+{\bfseries Value\-:}
+\begin{DoxyCode}
+\textcolor{keywordflow}{if} (buf == #myx) \(\backslash\)
+                                \{ \(\backslash\)
+                                        ss >> wert; \(\backslash\)
+                                        myx = ReadBoolean(wert); \(\backslash\)
+                                \}
+\end{DoxyCode}
+
+
+Definition at line 8 of file S\-B\-S\-Variables.\-cc.
+
+\hypertarget{_s_b_s_variables_8cc_a46168874a44b899c950bc8a747eb96b7}{\index{S\-B\-S\-Variables.\-cc@{S\-B\-S\-Variables.\-cc}!R\-E\-A\-D\-D\-O\-U\-B\-L\-E@{R\-E\-A\-D\-D\-O\-U\-B\-L\-E}}
+\index{R\-E\-A\-D\-D\-O\-U\-B\-L\-E@{R\-E\-A\-D\-D\-O\-U\-B\-L\-E}!SBSVariables.cc@{S\-B\-S\-Variables.\-cc}}
+\subsubsection[{R\-E\-A\-D\-D\-O\-U\-B\-L\-E}]{\setlength{\rightskip}{0pt plus 5cm}\#define R\-E\-A\-D\-D\-O\-U\-B\-L\-E(
+\begin{DoxyParamCaption}
+\item[{}]{x, }
+\item[{}]{unit}
+\end{DoxyParamCaption}
+)}}\label{_s_b_s_variables_8cc_a46168874a44b899c950bc8a747eb96b7}
+{\bfseries Value\-:}
+\begin{DoxyCode}
+\textcolor{keywordflow}{if} (buf == #x) \(\backslash\)
+                                \{ \(\backslash\)
+                                        ss >> doublewert; \(\backslash\)
+                                        x = doublewert * unit; \(\backslash\)
+                                \}
+\end{DoxyCode}
+
+
+Definition at line 15 of file S\-B\-S\-Variables.\-cc.
+
+\hypertarget{_s_b_s_variables_8cc_a7e04bf52f82c653d4c03037876b89b46}{\index{S\-B\-S\-Variables.\-cc@{S\-B\-S\-Variables.\-cc}!R\-E\-A\-D\-I\-N\-T@{R\-E\-A\-D\-I\-N\-T}}
+\index{R\-E\-A\-D\-I\-N\-T@{R\-E\-A\-D\-I\-N\-T}!SBSVariables.cc@{S\-B\-S\-Variables.\-cc}}
+\subsubsection[{R\-E\-A\-D\-I\-N\-T}]{\setlength{\rightskip}{0pt plus 5cm}\#define R\-E\-A\-D\-I\-N\-T(
+\begin{DoxyParamCaption}
+\item[{}]{x}
+\end{DoxyParamCaption}
+)}}\label{_s_b_s_variables_8cc_a7e04bf52f82c653d4c03037876b89b46}
+{\bfseries Value\-:}
+\begin{DoxyCode}
+\textcolor{keywordflow}{if} (buf == #x) \(\backslash\)
+                                \{ \(\backslash\)
+                                        ss >> intwert; \(\backslash\)
+                                        x = intwert; \(\backslash\)
+                                \}
+\end{DoxyCode}
+
+
+Definition at line 22 of file S\-B\-S\-Variables.\-cc.
+
+\hypertarget{_s_b_s_variables_8cc_ad3c80bc8f9ab3dd271fb8d12039e00e5}{\index{S\-B\-S\-Variables.\-cc@{S\-B\-S\-Variables.\-cc}!R\-E\-A\-D\-S\-T\-R\-I\-N\-G@{R\-E\-A\-D\-S\-T\-R\-I\-N\-G}}
+\index{R\-E\-A\-D\-S\-T\-R\-I\-N\-G@{R\-E\-A\-D\-S\-T\-R\-I\-N\-G}!SBSVariables.cc@{S\-B\-S\-Variables.\-cc}}
+\subsubsection[{R\-E\-A\-D\-S\-T\-R\-I\-N\-G}]{\setlength{\rightskip}{0pt plus 5cm}\#define R\-E\-A\-D\-S\-T\-R\-I\-N\-G(
+\begin{DoxyParamCaption}
+\item[{}]{x}
+\end{DoxyParamCaption}
+)}}\label{_s_b_s_variables_8cc_ad3c80bc8f9ab3dd271fb8d12039e00e5}
+{\bfseries Value\-:}
+\begin{DoxyCode}
+\textcolor{keywordflow}{if} (buf == #x) \(\backslash\)
+                                \{ \(\backslash\)
+                                        ss >> x; \(\backslash\)
+                                \}
+\end{DoxyCode}
+
+
+Definition at line 29 of file S\-B\-S\-Variables.\-cc.
+
+\hypertarget{_s_b_s_variables_8cc_aead60163aee53f894e7a7e903ff2526d}{\index{S\-B\-S\-Variables.\-cc@{S\-B\-S\-Variables.\-cc}!R\-E\-A\-D\-V\-E\-C\-T\-O\-R@{R\-E\-A\-D\-V\-E\-C\-T\-O\-R}}
+\index{R\-E\-A\-D\-V\-E\-C\-T\-O\-R@{R\-E\-A\-D\-V\-E\-C\-T\-O\-R}!SBSVariables.cc@{S\-B\-S\-Variables.\-cc}}
+\subsubsection[{R\-E\-A\-D\-V\-E\-C\-T\-O\-R}]{\setlength{\rightskip}{0pt plus 5cm}\#define R\-E\-A\-D\-V\-E\-C\-T\-O\-R(
+\begin{DoxyParamCaption}
+\item[{}]{v}
+\end{DoxyParamCaption}
+)}}\label{_s_b_s_variables_8cc_aead60163aee53f894e7a7e903ff2526d}
+{\bfseries Value\-:}
+\begin{DoxyCode}
+\textcolor{keywordflow}{if} (buf == #v) \(\backslash\)
+                                \{ \(\backslash\)
+                                        G4double x,y,z; \(\backslash\)
+                                        if (ss >> x >> y >> z) \(\backslash\)
+                                        v = G4ThreeVector(x, y, z); \(\backslash\)
+                                \}
+\end{DoxyCode}
+
+
+Definition at line 35 of file S\-B\-S\-Variables.\-cc.
+
+
+
+\subsection{Function Documentation}
+\hypertarget{_s_b_s_variables_8cc_ade2ea5e1c085c388211fc07746aaa3ce}{\index{S\-B\-S\-Variables.\-cc@{S\-B\-S\-Variables.\-cc}!operator$<$$<$@{operator$<$$<$}}
+\index{operator$<$$<$@{operator$<$$<$}!SBSVariables.cc@{S\-B\-S\-Variables.\-cc}}
+\subsubsection[{operator$<$$<$}]{\setlength{\rightskip}{0pt plus 5cm}ostream\& operator$<$$<$ (
+\begin{DoxyParamCaption}
+\item[{ostream \&}]{os, }
+\item[{const {\bf S\-B\-S\-Variables}}]{v}
+\end{DoxyParamCaption}
+)}}\label{_s_b_s_variables_8cc_ade2ea5e1c085c388211fc07746aaa3ce}
+
+
+Definition at line 274 of file S\-B\-S\-Variables.\-cc.
+
+
+
+\subsection{Variable Documentation}
+\hypertarget{_s_b_s_variables_8cc_aaa4c7e8ec08cba6569c1ae6ddaa0a388}{\index{S\-B\-S\-Variables.\-cc@{S\-B\-S\-Variables.\-cc}!Variables@{Variables}}
+\index{Variables@{Variables}!SBSVariables.cc@{S\-B\-S\-Variables.\-cc}}
+\subsubsection[{Variables}]{\setlength{\rightskip}{0pt plus 5cm}{\bf S\-B\-S\-Variables}$\ast$ Variables = N\-U\-L\-L}}\label{_s_b_s_variables_8cc_aaa4c7e8ec08cba6569c1ae6ddaa0a388}
+
+
+Definition at line 382 of file S\-B\-S\-Variables.\-cc.
+

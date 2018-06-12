@@ -1,0 +1,6 @@
+<map id="G" name="G">
+<area shape="rect" id="node3" href="$_s_b_s_8cc.html" title="g4work/Ecal/SBS.cc" alt="" coords="5,104,147,131"/>
+<area shape="rect" id="node5" href="$_s_b_s_detector_construction_8cc.html" title="g4work/Ecal/src/SBSDetector\lConstruction.cc" alt="" coords="172,97,369,138"/>
+<area shape="rect" id="node7" href="$_s_b_s_primary_generator_action_8cc.html" title="g4work/Ecal/src/SBSPrimary\lGeneratorAction.cc" alt="" coords="393,97,585,138"/>
+<area shape="rect" id="node9" href="$_s_b_s_stepping_action_8cc.html" title="g4work/Ecal/src/SBSStepping\lAction.cc" alt="" coords="610,97,808,138"/>
+</map>

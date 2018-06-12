@@ -1,0 +1,2 @@
+/home/jlabdaq/g4work/Ecal/CMakeFiles/N03.dir
+/home/jlabdaq/g4work/Ecal/CMakeFiles/SBS.dir

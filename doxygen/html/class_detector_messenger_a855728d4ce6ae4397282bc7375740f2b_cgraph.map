@@ -1,0 +1,10 @@
+<map id="G" name="G">
+<area shape="rect" id="node3" href="$class_detector_construction.html#a9b970ad4aacc014e624cc19ff5664d55" title="DetectorConstruction\l::SetAbsorberMaterial" alt="" coords="202,5,350,46"/>
+<area shape="rect" id="node5" href="$class_detector_construction.html#ae511a5f00b0f6b52b258426d981440cd" title="DetectorConstruction\l::SetGapMaterial" alt="" coords="203,70,349,111"/>
+<area shape="rect" id="node7" href="$class_detector_construction.html#a966fd78fdccca049843b5763246d594b" title="DetectorConstruction\l::SetAbsorberThickness" alt="" coords="195,135,357,177"/>
+<area shape="rect" id="node9" href="$class_detector_construction.html#aa4fe52c7824b4272c9d6fdc54b906a4a" title="DetectorConstruction\l::SetGapThickness" alt="" coords="203,201,349,242"/>
+<area shape="rect" id="node11" href="$class_detector_construction.html#a4e839c8ca5bdf75483333d32fe7912f4" title="DetectorConstruction\l::SetCalorSizeYZ" alt="" coords="203,266,349,307"/>
+<area shape="rect" id="node13" href="$class_detector_construction.html#a9c0e7bcf321ffb2c6c3b6e51aa79a9f7" title="DetectorConstruction\l::SetNbOfLayers" alt="" coords="203,331,349,373"/>
+<area shape="rect" id="node15" href="$class_detector_construction.html#a2742ef0ae83433992902a56693f2c6e5" title="DetectorConstruction\l::UpdateGeometry" alt="" coords="203,397,349,438"/>
+<area shape="rect" id="node17" href="$class_detector_construction.html#a63ab08aef61c63c09b59019e4d586d60" title="DetectorConstruction\l::SetMagField" alt="" coords="203,462,349,503"/>
+</map>
